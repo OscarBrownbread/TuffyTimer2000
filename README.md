@@ -1,11 +1,11 @@
 # TuffyTimer2000
-This C++ code is for a xenon lamp controller with time logging.
+This C++ [**code**](main.cpp) is for a xenon lamp controller with time logging.
 
 The program uses RS232 ports for communication with commerical xenon lamps. It can then send _start_ and _stop_ commands to ignite and quench the lamp. Error codes are read and logged from the lamp controller. Most importantly, a running time can be set for the lamp, e.g. 3 hours. This way, the lamp is automatically stopped after the desired illumination time.
 
 This was used in a research lab with commercial xenon lamps acting as solar simulators. 
 
-Example program and log are given below.
+Examples of the program and log are given below.
 
 ![TimerProgram1](https://github.com/OscarBrownbread/TuffyTimer2000/assets/26405187/002f5679-5b1a-4012-a148-72be65c479c2)
 
